@@ -5,4 +5,4 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(html)
 
-doc.css(".").text.strip
+doc.css(".title-").text.strip
